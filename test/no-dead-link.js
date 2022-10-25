@@ -27,7 +27,7 @@ tester.run("no-dead-link", rule, {
             ext: ".txt"
         },
         {
-            text: "should be able to check relative pathes when checkRelative is true: ![robot](index.html)",
+            text: "should be able to check relative paths when checkRelative is true: ![robot](index.html)",
             options: {
                 baseURI: "https://example.com/"
             }
